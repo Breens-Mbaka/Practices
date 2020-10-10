@@ -6,7 +6,7 @@ fun main () {
     println("My ${myFirstDice.numSides} dice rolled ${myFirstDice.roll()}")
 
     val mySecondDice = Dice(20)
-    println("Your ${mySecondDice.numSides} sided dice has rolled a ${mySecondDice.roll()}!")
+    println("Your ${mySecondDice.numSides} sided dice result is ${mySecondDice.roll()}!")
 }
 
 /*Dice() class that has a number of sides property and
